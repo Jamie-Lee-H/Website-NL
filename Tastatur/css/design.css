@@ -1,0 +1,133 @@
+@font-face {
+    font-family: HKG;
+    src: url(../fonts/HKGrotesk-Bold.otf);
+}
+
+body {
+    font-family: 'HKG';
+    /*#background-color: #0A0A0A;*/
+    background: url('../img/bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+a {
+    color: #BF1AFF;
+    text-decoration: none;
+}
+
+header, main, footer {
+    padding: 0.5rem;
+}
+
+/*Header*/
+
+header {
+    background-color: #101010;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#headerlogo {
+    color: #fff;
+}
+
+#headerlinks {
+    color: #BF1AFF;
+}
+
+/*Main*/
+
+main {
+    background-color: #0A0A0A;
+    color: white;
+}
+
+aside {
+    background-color: #101010;
+    color: #fff;
+    line-height: 1.5;
+    border-radius: 20px;
+}
+
+#mainüberschrift {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+#mainbeschreibung {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+#mainbutton1 {
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color: #252525;
+    transition: all 0.5s;
+}
+
+#mainbutton1:hover {
+    background-color: #BF1AFF;
+    transition: all 0.5s;
+}
+
+#mainbutton2 {
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color: #BF1AFF;
+    transition: all 0.5s;
+}
+
+#tastatur {
+    position: relative;
+    left: 12%;
+    margin: 5%;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #0C0C0C;
+}
+
+#footerüberschrift {
+    color: white;
+}
+
+#footertext {
+    color: #BF1AFF;
+}
+
+links {
+    background-color: #131313;
+    color: #fff;
+    line-height: 1.5;
+    border-radius: 20px;
+}
+
+support {
+    background-color: #131313;
+    color: #fff;
+    line-height: 1.5;
+    border-radius: 20px;
+}
+
+rechtliches {
+    background-color: #131313;
+    color: #fff;
+    line-height: 1.5;
+    border-radius: 20px;
+}

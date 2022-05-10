@@ -1,0 +1,90 @@
+@font-face {
+    font-family: HKG;
+    src: url(../fonts/HKGrotesk-Bold.otf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flx-col {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header*/
+
+header {
+    flex-grow: 0.01;
+}
+
+#headerlogo {
+    float: left;
+    padding: 1%;
+}
+
+#headerlinks {
+    float: right;
+    padding: 1%;
+}
+
+/*main*/
+
+main {
+    position: relative;
+    flex-basis: 150%;
+}
+
+aside {
+    position: relative;
+    flex-grow: 1;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+/*Footer*/
+
+footer {
+    position: relative;
+    flex-grow: 0.05;
+}
+
+links {
+    padding: 1rem;
+    margin-left: 19%;
+    width: 20%;
+}
+
+support {
+    width: 20%;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+rechtliches {
+    width: 20%;
+    padding: 1rem;
+    margin-left: 1rem;
+}

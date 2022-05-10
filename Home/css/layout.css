@@ -1,0 +1,153 @@
+@font-face {
+    font-family: HKG;
+    src: url(../fonts/HKGrotesk-Bold.otf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 150%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flx-col {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header*/
+
+header {
+    flex-grow: 0.01;
+}
+
+#headerlogo {
+    float: left;
+    padding: 1%;
+}
+
+#headerlinks {
+    float: right;
+    padding: 1%;
+}
+
+/*main*/
+
+.titel {
+    letter-spacing: 0.1vw;
+    line-height: 4vw;
+    margin-top: 10%;
+}
+
+.beschreibung {
+    line-height: 2vw;
+    margin-top: 1%;
+}
+
+#mainlinks {
+    position: relative;
+    float: right;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    top: 20%;
+    right: 39.5%;
+}
+
+#mainbutton1 {
+    float: left;
+    text-align: center;
+    width: 10%;
+    margin: 2%;
+    margin-left: 38%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+#mainbutton2 {
+    float: left;
+    text-align: center;
+    width: 10%;
+    margin: 2%;
+    margin-left: 2%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+    flex-basis: 150%;
+}
+
+aside {
+    flex-grow: 2;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+aside2 {
+    position: relative;
+    flex-grow: 0.3;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+/*Footer*/
+
+footer {
+    position: relative;
+    flex-grow: 0.05;
+}
+
+links {
+    padding: 1rem;
+    margin-left: 19%;
+    width: 20%;
+}
+
+support {
+    width: 20%;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+rechtliches {
+    width: 20%;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+/*Unterschied*/
+
+#mainunterschied {
+    float: left;
+    text-align: center;
+    width: 46%;
+    margin: 2%;
+    padding: 5px;
+    padding: 2%;
+    box-sizing: border-box;
+}

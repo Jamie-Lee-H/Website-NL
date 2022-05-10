@@ -1,0 +1,149 @@
+@font-face {
+    font-family: HKG;
+    src: url(../fonts/HKGrotesk-Bold.otf);
+}
+
+body {
+    font-family: 'HKG';
+    /*#background-color: #0A0A0A;*/
+    background: url('../img/bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, main, footer {
+    padding: 0.5rem;
+}
+
+/*Header*/
+
+header {
+    background-color: #101010;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#headerlogo {
+    color: #fff;
+}
+
+#headerlinks {
+    color: #BF1AFF;
+}
+
+/*Main*/
+
+.titel {
+    font-family: 'HKG';
+    color: #fff;
+    font-size: 4vw;
+    text-shadow: 0px 0px 20px #000;
+    text-align: center;
+}
+
+.beschreibung {
+    color: #fff;
+    font-family: 'HKG';
+    letter-spacing: 0.1vw;
+    text-align: center;
+    font-size: 0.75vw;
+    text-shadow: 0px 0px 10px #000;
+}
+
+main {
+    background-color: #0A0A0A;
+    color: white;
+}
+
+aside {
+    background: url('../img/bg2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+    line-height: 1.5;
+}
+
+aside2 {
+    background-color: #101010;
+    color: #fff;
+    line-height: 1.5;
+    border-radius: 20px;
+}
+
+#mainüberschrift {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+#mainbeschreibung {
+    font-size: 20px;
+    color: #BF1AFF;
+    text-align: center;
+}
+
+#mainbutton1 {
+    font-size: 15px;
+    color: #BF1AFF;
+    background-color: #101010;
+}
+
+#mainbutton2 {
+    font-size: 15px;
+    color: #BF1AFF;
+    background-color: #101010;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #0C0C0C;
+}
+
+#footerüberschrift {
+    color: white;
+}
+
+#footertext {
+    color: #BF1AFF;
+}
+
+links {
+    background-color: #131313;
+    color: #fff;
+    line-height: 1.5;
+    border-radius: 20px;
+}
+
+support {
+    background-color: #131313;
+    color: #fff;
+    line-height: 1.5;
+    border-radius: 20px;
+}
+
+rechtliches {
+    background-color: #131313;
+    color: #fff;
+    line-height: 1.5;
+    border-radius: 20px;
+}
+
+/*Unterschiede*/
+
+#mainunterschied {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    background-color: #252525;
+}
